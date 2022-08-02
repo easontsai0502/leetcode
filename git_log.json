@@ -1,0 +1,24 @@
+[
+	{"name":"main",
+		"verson_tree":[
+			{"time":"08-02-2022-18:58",
+				"by":{"name":"ET01","mail":"kagariet01@outlook.com"},
+				"do":"git create",
+				"name":"leetcode"
+			},
+			{"time":"08-02-2022-18:58",
+				"by":{"name":"ET01","mail":"kagariet01@outlook.com"},
+				"do":"files add",
+				"add":[
+					".\392.cpp",
+					".\392-2.cpp",
+					".\git_log.json"
+				],
+				"remove":[],
+				"edit":[],
+				"other_thing":"",
+				"other_branch":[]
+			}
+		]
+	}
+]
