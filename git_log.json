@@ -11,12 +11,24 @@
 				"by":{"name":"ET01","mail":"kagariet01@outlook.com"},
 				"do":"files add",
 				"add":[
-					".\392.cpp",
-					".\392-2.cpp",
-					".\git_log.json"
+					"./392.cpp",
+					"./392-2.cpp",
+					"./git_log.json"
 				],
 				"remove":[],
 				"edit":[],
+				"other_thing":"",
+				"other_branch":[]
+			},
+			{"time":"08-02-2022-18:58",
+				"by":{"name":"ET01","mail":"kagariet01@outlook.com"},
+				"do":"files edit",
+				"add":[],
+				"remove":[],
+				"edit":[
+					"./392.cpp",
+					"./392-2.cpp"
+				],
 				"other_thing":"",
 				"other_branch":[]
 			}
