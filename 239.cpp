@@ -3,15 +3,17 @@
 []
 */
 class Solution {
-    public:{
+    public:
+        #define pii pair<int,int>
+        struct cmp {
+            bool operator()(pii aaa,pii bbb) {
+                return aaa.first<bbb.first;
+            }
+        };
         vector<int> maxSlidingWindow(vector<int>& nums, int k) {
             using namespace std;
-            #define pii pair<int,int>
-            bool vser(pii a,pii b){
-                return a.first<b.first;
-            }
             vector<int> ans;
-            priority_queue<pii,vector<pii>,vser> pq;
+            priority_queue<pii,vector<pii>,cmp> pq;
             for(int i=0;i<nums.size(),i++){
                 pq.push({nums[i],i});
                 if(i+1>=k){
@@ -23,5 +25,5 @@ class Solution {
             }
             return ans;
         }
-    }
+    
 };
