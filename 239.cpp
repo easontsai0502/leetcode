@@ -17,7 +17,7 @@ class Solution {
             for(int i=0;i<nums.size();i++){
                 pq.push({nums[i],i});
                 if(i+1>=k){
-                    while(i-(pq.top()).second<k){
+                    while(i-(pq.top()).second>k){
                         pq.pop();
                     }
                     ans.push_back((pq.top()).first);
