@@ -8,6 +8,9 @@ class Solution {
 			#define ulli unsigned long long int
 			#define lli long long int
 			ulli lef=0,rig=nums.size()-1,ans;
+			if(nums[0]>target || numsj[rig]<target){
+				return -1;
+			}
 			while(true){
 				if(nums[(rig+lef)/2]>target) rig=(rig+lef)/2;
 				else if(nums[(rig+lef)/2]<target) lef=(rig+lef)/2;
