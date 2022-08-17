@@ -8,7 +8,7 @@ class Solution {
 			#define ulli unsigned long long int
 			#define lli long long int
 			ulli lef=0,rig=nums.size()-1,ans;
-			if(nums[0]>target || numsj[rig]<target){
+			if(nums[0]>target || nums[rig]<target){
 				return -1;
 			}
 			while(true){
