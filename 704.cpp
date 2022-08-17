@@ -7,7 +7,7 @@ class Solution {
 		int search(vector<int>& nums, int target) {
 			#define ulli unsigned long long int
 			#define lli long long int
-			ulli lef=0;rig=nums.size()-1,ans;
+			ulli lef=0,rig=nums.size()-1,ans;
 			while(true){
 				if(nums[(rig+lef)/2]>target) rig=(rig+lef)/2;
 				else if(nums[(rig+lef)/2]<target) lef=(rig+lef)/2;
