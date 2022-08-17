@@ -11,6 +11,12 @@ class Solution {
 			if(nums[0]>target || nums[rig]<target){
 				return -1;
 			}
+			if(nums[0]==target){
+				return 0;
+			}
+			if(nums[rig]==target){
+				return rig;
+			}
 			while(true){
 				if(nums[(rig+lef)/2]>target) rig=(rig+lef)/2;
 				else if(nums[(rig+lef)/2]<target) lef=(rig+lef)/2;
