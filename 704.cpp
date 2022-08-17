@@ -1,6 +1,6 @@
 /*
 [Q]https://leetcode.com/problems/binary-search/
-[]
+[AC]
 */
 class Solution {
 	public:
