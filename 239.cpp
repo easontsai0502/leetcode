@@ -1,6 +1,6 @@
 /*
 [Q]https://leetcode.com/problems/sliding-window-maximum/
-[TLE]
+[AC]
 */
 class Solution {
     public:
