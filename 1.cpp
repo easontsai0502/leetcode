@@ -1,4 +1,4 @@
-//[搜尋]
+//[搜尋][AC]
 /*define*/
 #define what_the_fuck cin.tie(0);cout.tie(0);ios::sync_with_stdio(false)
 #define ULLI unsigned long long int
